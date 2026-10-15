@@ -1,5 +1,7 @@
 # QuietCache
 
+![QuietCache](banner.jpg)
+
 Stealth local tool combining:
 - Encrypted deniable offline knowledge cache
 - On-device claim/document verifier
@@ -17,8 +19,6 @@ python3 quietcache.py add "Title" "Content here" --tags source ref
 python3 quietcache.py search "keyword"
 python3 quietcache.py verify "exact claim text"
 python3 quietcache.py list
-python3 quietcache.py export abc123 -o share.txt
-python3 quietcache.py import share.txt
 ```
 
 ## GUI
